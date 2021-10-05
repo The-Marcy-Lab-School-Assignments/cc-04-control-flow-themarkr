@@ -18,13 +18,13 @@ function fizzBuzz(number){
   let array = [];
   for(let i =1; i<=number; i++){
       if (i % 3 === 0 && i % 5 === 0){
-          array.push("FizzBuzz")
+          array.push("FizzBuzz");
       }else if(i % 3 === 0){
-          array.push("Fizz")
+          array.push("Fizz");
       }else if(i % 5 === 0){
-          array.push("Buzz")
+          array.push("Buzz");
       }else{
-          array.push(i)
+          array.push(i.toString());
       }
   }
   return array
